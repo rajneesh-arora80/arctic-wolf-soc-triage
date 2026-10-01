@@ -4,8 +4,7 @@ st.set_page_config(page_title="🐺 Arctic Wolf SOC Triage", page_icon="🐺", l
 
 st.title("🐺 Arctic Wolf SOC Alert Triage Workbench")
 st.markdown("**Intelligent alert prioritization powered by Databricks**")
-
-st.success("✅ App is running! Database connection will be added next.")
+st.success("✅ App is running!")
 
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("Total Alerts", "500,000")
