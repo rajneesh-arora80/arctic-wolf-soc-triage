@@ -10,12 +10,10 @@ SCHEMA = "soc_alert_triage"
 def run_query(query):
     try:
         from databricks import sql as dbsql
-        from databricks.sdk.core import oauth_service_principal, Config
-        cfg = Config()
         conn = dbsql.connect(
             server_hostname=os.getenv("DATABRICKS_HOST"),
             http_path=os.getenv("DATABRICKS_SQL_WAREHOUSE_HTTP_PATH"),
-            credentials_provider=cfg.authenticate
+            access_token=os.getenv("DATABRICKS_TOKEN")
         )
         cursor = conn.cursor()
         cursor.execute(query)
