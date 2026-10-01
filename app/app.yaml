@@ -7,9 +7,7 @@ command:
 
 env:
   - name: "DATABRICKS_HOST"
-    valueFrom: "workspace-url"
-  - name: "DATABRICKS_SQL_WAREHOUSE_HTTP_PATH"
-    value: "/sql/1.0/warehouses/auto"
+    value: "fevm-serverless-stable-awn-fts.cloud.databricks.com"
 
 permissions:
   - user: "rajneesh.arora@databricks.com"
