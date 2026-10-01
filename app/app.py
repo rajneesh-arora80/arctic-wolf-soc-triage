@@ -1,10 +1,21 @@
-# Debug info - remove after testing
+import streamlit as st
+import pandas as pd
+import os
+
+st.set_page_config(page_title="🐺 Arctic Wolf SOC Triage", page_icon="🐺", layout="wide")
+
+CATALOG = "rajarora_febar"
+SCHEMA = "soc_alert_triage"
+
+st.title("🐺 Arctic Wolf SOC Alert Triage Workbench")
+st.markdown("**Intelligent alert prioritization powered by Databricks**")
+
+# Debug info
 st.write("**Debug Info:**")
 st.write(f"- DATABRICKS_HOST: {os.getenv('DATABRICKS_HOST', 'NOT SET')}")
 st.write(f"- HTTP_PATH: {os.getenv('DATABRICKS_SQL_WAREHOUSE_HTTP_PATH', 'NOT SET')}")
 st.write(f"- TOKEN present: {bool(os.getenv('DATABRICKS_TOKEN'))}")
 
-# Quick connection test
 try:
     from databricks import sql as dbsql
     conn = dbsql.connect(
