@@ -7,6 +7,6 @@ env:
   - name: "DATABRICKS_HOST"
     value: "fevm-serverless-stable-awn-fts.cloud.databricks.com"
   - name: "DATABRICKS_SQL_WAREHOUSE_HTTP_PATH"
-    value: "/sql/1.0/warehouses/YOUR_WAREHOUSE_ID_HERE"
+    value: "/sql/1.0/warehouses/4d120045d1ac198c"
   - name: "DATABRICKS_TOKEN"
     valueFrom: "token"
