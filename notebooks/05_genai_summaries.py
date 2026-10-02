@@ -70,7 +70,7 @@ investigation_summaries = spark.sql(f"""
         ai_query(
             'databricks-meta-llama-3-3-70b-instruct',
             CONCAT(
-                'You are a senior SOC analyst at Arctic Wolf. Generate a concise investigation summary for this security alert. ',
+                'You are a senior SOC analyst. Generate a concise investigation summary for this security alert. ',
                 'Include: (1) What happened, (2) Risk assessment, (3) Recommended next steps. Keep it under 150 words.\\n\\n',
                 'Alert Details:\\n',
                 '- Source: ', source_type, '\\n',
