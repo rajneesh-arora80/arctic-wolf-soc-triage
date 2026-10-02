@@ -2,12 +2,12 @@ import streamlit as st
 import pandas as pd
 import os
 
-st.set_page_config(page_title="🐺 Arctic Wolf SOC Triage", page_icon="🐺", layout="wide")
+st.set_page_config(page_title="🐺 SOC Triage", page_icon="🐺", layout="wide")
 
 CATALOG = "rajarora_febar"
 SCHEMA = "soc_alert_triage"
 
-st.title("🐺 Arctic Wolf SOC Alert Triage Workbench")
+st.title("🐺SOC Alert Triage Workbench")
 st.markdown("**Intelligent alert prioritization powered by Databricks**")
 
 # Debug info
