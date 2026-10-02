@@ -10,8 +10,8 @@
 # MAGIC ### 1. Create the Genie Agent
 # MAGIC 1. Go to your workspace → **Genie** (left sidebar)
 # MAGIC 2. Click **Create Genie Agent**
-# MAGIC 3. Name it: `Arctic Wolf SOC Alert Triage`
-# MAGIC 4. Description: `Query security alerts, triage metrics, and analyst performance for Arctic Wolf MDR customers`
+# MAGIC 3. Name it: `  SOC Alert Triage`
+# MAGIC 4. Description: `Query security alerts, triage metrics, and analyst performance for   MDR customers`
 # MAGIC
 # MAGIC ### 2. Add Tables
 # MAGIC Add these tables from `rajarora_febar.soc_alert_triage`:
@@ -26,7 +26,7 @@
 # MAGIC Copy these instructions into the Genie Agent's general instructions:
 # MAGIC
 # MAGIC ```
-# MAGIC You are a SOC analytics assistant for Arctic Wolf's Managed Detection & Response service.
+# MAGIC You are a SOC analytics assistant for  's Managed Detection & Response service.
 # MAGIC
 # MAGIC Key terminology:
 # MAGIC - MTTR: Mean Time to Respond (average time from alert to triage action)
