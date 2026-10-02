@@ -16,10 +16,10 @@
 
 # DBTITLE 1,Add Table Comments for Discoverability
 table_comments = {
-    "raw_security_events": "Bronze layer: Raw security telemetry from Arctic Wolf MDR sensors. Includes firewall, EDR, auth, email, and cloud audit events.",
+    "raw_security_events": "Bronze layer: Raw security telemetry from   MDR sensors. Includes firewall, EDR, auth, email, and cloud audit events.",
     "threat_intel_iocs": "Reference table: Known-bad indicators of compromise (IOCs) from multiple threat intelligence feeds.",
     "asset_inventory": "Reference table: Managed assets (servers, endpoints, network devices) across all MDR customers.",
-    "customers": "Reference table: Arctic Wolf MDR customer accounts with industry, tier, and region metadata.",
+    "customers": "Reference table:   MDR customer accounts with industry, tier, and region metadata.",
     "silver_normalized_events": "Silver layer: Parsed, deduplicated, and OCSF-normalized security events with extracted fields.",
     "gold_enriched_alerts": "Gold layer: Enriched security alerts with threat intel correlation, asset context, and composite risk scores.",
     "historical_triage_decisions": "Training data: Historical analyst triage decisions used for ML model training.",
