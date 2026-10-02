@@ -4,7 +4,7 @@
 # MAGIC
 # MAGIC This notebook:
 # MAGIC 1. Creates the Unity Catalog and schema
-# MAGIC 2. Generates synthetic security telemetry mimicking Arctic Wolf's MDR data
+# MAGIC 2. Generates synthetic security telemetry mimicking  's MDR data
 # MAGIC 3. Creates reference tables (threat intel, asset inventory, customers)
 # MAGIC 4. Creates historical triage decisions for ML training
 # MAGIC
@@ -130,7 +130,7 @@ assets_df.display()
 
 # DBTITLE 1,Generate Raw Security Events (500,000 events)
 # MAGIC %md
-# MAGIC ### Event Types (mimicking Arctic Wolf MDR telemetry)
+# MAGIC ### Event Types (mimicking   MDR telemetry)
 # MAGIC - **firewall**: Firewall allow/deny logs
 # MAGIC - **edr**: Endpoint Detection & Response alerts
 # MAGIC - **auth**: Authentication events (login success/failure)
